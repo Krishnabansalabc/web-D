@@ -1,0 +1,999 @@
+
+<!DOCTYPE html>
+<html class=''>
+
+<head>
+
+  <title>OUR TEAM</title>
+
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- Sheet for social buttons-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
+<meta charset='UTF-8'>
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+<link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+<link rel="canonical" href="https://codepen.io/vincebrown/pen/bNNpmY?depth=everything&limit=all&order=popularity&page=11&q=portfolio&show_forks=false" />
+
+<link href='https://fonts.googleapis.com/css?family=Oswald:700,300' rel='stylesheet' type='text/css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'>
+</script>
+
+<link href="../images/demo/backgrounds/asme.ico" rel="icon">
+
+<style class="cp-pen-styles">
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+
+.title {
+
+  text-align: center;
+
+  font-family: 'Oswald';
+
+  font-weight: 100;
+
+  font-size: 3.75rem;
+
+  letter-spacing: 5px;
+
+  background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 0;
+
+}
+
+@media screen and (min-width: 37.5em) {
+  .title {
+
+    font-size: 4.75rem;
+
+  }
+}
+
+
+@media screen and (min-width: 37.5em)
+ {
+
+  p {
+
+    height: 70%;
+
+  }
+
+}
+
+
+.case-study-gallery {
+
+  margin-top: 50px;
+
+  width: 90%;
+
+  margin: 50px auto;
+
+  max-width: 1100px;}
+
+
+.case-study {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto 2rem;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: all .4s ease;
+}
+
+@media screen and (min-width: 37.5em) {
+
+  .case-study {
+    height: 400px;
+  }
+
+}
+
+@media screen and (min-width: 45em) {
+
+  .case-study {
+    display: inline-block;
+    width: 45%;
+    margin-left: 25px;
+  }
+
+}
+
+
+.case-study__img {
+  
+  
+}
+
+
+.case-study__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.case-study__overlay:after {
+  content: '';
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  background-color: #202020;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  left: 0;
+  transition: all .3s ease;
+}
+
+
+.case-study__title {
+  position: relative;
+  top: -200px;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-size: 2.25rem;
+  font-family: 'Oswald';
+  font-weight: 100;
+  color: red;
+  text-align: center;
+  letter-spacing: 5px;
+  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+}
+
+
+.case-study__link {
+  position: relative;
+  display: block;
+  width: 60%;
+  top: 200px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Oswald';
+  color:red;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 3px;
+  font-size: 1.25em;
+  transition: all 0.3s cubic-bezier(0.3, 0, 0, 1.3);
+}
+
+.case-study__link:hover {
+  background-color: white;
+  color: #202020;
+}
+
+
+.case-study:hover .case-study__title {
+  top: 0;
+}
+
+.case-study:hover .case-study__link {
+  top: 0;
+}
+
+.case-study:hover .case-study__overlay:after {
+  opacity: .75;
+}
+
+
+.study1 {
+  background-image: url("" );
+}
+
+
+.study2 {
+  background-image: url("");
+}
+
+
+.study3 {
+  background-image: url("");
+}
+
+
+.study4 {
+  background-image: url("");
+}
+
+
+.study5 {
+  background-image: url("");
+}
+
+
+.study6 {
+  background-image: url("");
+}
+
+.study7 {
+  background-image: url("");
+}
+
+.study8 {
+  background-image: url("");
+}
+
+
+ /*for socail buttons*/
+
+.ib {
+    width: 200px;
+    background-color: transparent;
+}
+
+.ib a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.ib a:hover {
+    background-color: white;
+}
+
+/*social buttons end*/
+
+
+
+  /*moving rover for rejistration*/
+
+  .example1 {
+ height: 50px;  
+ overflow: hidden;
+ position: relative;
+}
+
+.example1 h3 {
+
+font-family:Tahoma, Geneva, sans-serif;
+ font-size: 3em;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);  
+ transform:translateX(100%);
+
+ /* Apply animation to this element */
+  
+ -moz-animation: example1 15s linear infinite;
+
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+
+@-moz-keyframes example1 {
+ 
+0%   { -moz-transform: translateX(100%); }
+
+ 100% { -moz-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes example1 {
+
+ 0%   { 
+-webkit-transform: translateX(100%);
+ }
+
+ 100% { 
+-webkit-transform: translateX(-100%);
+ }
+}
+
+@keyframes example1 {
+
+ 0%   { 
+ 
+-moz-transform: translateX(100%); 
+/* Firefox bug fix */
+ 
+-webkit-transform: translateX(100%); 
+/* Firefox bug fix */
+
+ transform: translateX(100%);
+     
+ }
+ 
+100% { 
+ 
+-moz-transform: translateX(-100%);
+ /* Firefox bug fix */
+
+ -webkit-transform: translateX(-100%);
+ /* Firefox bug fix */
+
+ transform: translateX(-100%); 
+ 
+}
+}
+
+/*end on moving rover rejistration*/
+
+
+  
+/*membership drive botton*/
+
+.membtn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.membtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.membtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.membtn:hover span {
+  padding-right: 25px;
+}
+
+
+.membtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/*membership drive ends*/
+
+
+
+</style>
+
+</head>
+<body id="top">
+
+  <nav id="mainav" class="" style="position: fixed; left:auto; border-top: 1px solid white;border-bottom: 1px solid white;border-right: 1px solid white;border-left: 1px solid white;width: 100%;top: 0;background-color:#5dade2 ;color:white;  ">
+
+        <ul class="navbars" style="padding: 0px 60px 0px; margin-left: 250px;">
+
+         <li><img src="../indeximages/demo/backgrounds/asme.png"  style="width: 150px;height: 90px; border-radius: 100%"></li>
+          <li ><a href="../index.html" style="font-size: 15px;"><b>Home</b></a></li>
+
+          <li class=""><a href="aboutus.html" style="font-size: 15px;"><b>About Us</b></a></li>
+
+        <li class="active"><a href="newnew.html" style="font-size: 15px"><b>Our Team</b></a></li>
+
+        <li><a href="workshop and event.html" style="font-size: 15px"><b>Events and Workshops</b></a></li>
+          <li ><a href="collaboration.html" style="font-size: 15px"><b>Our Collaboration</b></a></li>
+	<li><a href="contactus.html" style="font-size: 15px"><b>Contact us</b></a></li>
+
+
+          <li><a href="gallery.html" style="font-size: 15px"><b>Gallery</b></a></li>
+
+
+        </ul>
+
+      </nav>
+
+<div style="background: brown url('../images/demo/backgrounds/1.png') fixed ;">
+
+
+<div class="case-study-gallery">
+
+<br><br>
+	<center><h2 style="font-size: 50px;font-family:lithos pro;color: white">OUR TEAM</h2></center>
+ 
+
+<div class="case-study study1">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px " src="../images/demo/backgrounds/idpht/kmlshr.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title" style="color: red; font-size: 30px">KAMAL SHARAMA</h2>
+
+    <a class="case-study__link" href="#" style="color: red">SECTION ADVISOR</a>
+
+  </div>
+
+</div>
+
+  
+<div class="case-study study2">
+
+	<figure>
+
+		<img class="case-study__img" style="width:380px ;height::380px " src="../images/demo/backgrounds/idpht/nitin.JPG" alt="" />
+
+	</figure>
+
+  <div class="case-study__overlay">
+
+  	<h2 class="case-study__title" style="color: red">NITIN KUKREJA</h2>
+
+    <a class="case-study__link" href="#" style="color: red">DEPT. SECTION ADVISOR</a>
+
+  </div>
+
+</div>
+
+
+
+<br><br><br><br><br><br>
+<center><h2 style="font-size: 80px;font-family:Tahoma, Geneva, sans-serif;color:black;">STUDENTS AFFAIRS</h2></center>
+ 
+ 
+
+  <div class="case-study study5">
+
+	<figure>
+
+		<img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/prtk.png" alt="" />
+
+	</figure>
+
+  <div class="case-study__overlay">
+
+  	<h2 class="case-study__title">PRATEEK VASISHTHA</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+<div class="case-study study5">
+
+	<figure>
+
+		<img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/amk.jpg" alt="" />
+
+	</figure>
+
+  <div class="case-study__overlay">
+
+  	<h2 class="case-study__title">AMAN KUMAR</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+
+  
+<div class="case-study study6">
+
+	<figure>
+
+		<img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/mi.jpg" alt="" />
+
+	</figure>
+
+  <div class="case-study__overlay">
+
+  	<h2 class="case-study__title">AMIT KUMAR</h2>
+
+    <a class="case-study__link" href="#">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study7">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/ah.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">AFREEN HASAN</h2>
+
+    <a class="case-study__link" href="#">ASSOCIATE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/as.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">AVANI SINGH</h2>
+
+    <a class="case-study__link" href="#">ASSOCIATE</a>
+
+  </div>
+
+</div>
+
+
+<br><br><br><br><br><br>
+<center><h2 style="font-size: 80px;font-family:Tahoma, Geneva, sans-serif;color:black;">DATA AND LOGISTICS</h2></center>
+ 
+
+<ul>
+
+<li><center>
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/mk.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">MUHIB KHAN</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+</center></li>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/sh.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SHUBHAM SINGH</h2>
+
+    <a class="case-study__link" href="#">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/aks.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">AKASH SINGH</h2>
+
+    <a class="case-study__link" href="#">ASSOCIATE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/sj.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SHUBHANSHU JAIN</h2>
+
+    <a class="case-study__link" href="#">ASSOCIATE</a>
+
+  </div>
+</div>
+
+
+
+<br><br><br><br><br><br>
+
+<center><h2 style="font-size: 80px;font-family:Tahoma, Geneva, sans-serif;color:black;">MEDIA AND PUBLICITY</h2></center>
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/jg.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">JAY GOPAL</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/SVS-P.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SHREYA VARDHAN</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/mi.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SAURABH PATHAK</h2>
+
+    <a class="case-study__link" href="#">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/uk.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">UTKARSH KHANNA</h2>
+
+    <a class="case-study__link" href="#">ASSOCIATE</a>
+
+  </div>
+
+</div>
+
+
+
+<br><br><br><br><br><br>
+<center><h2 style="font-size: 80px;font-family:Tahoma, Geneva, sans-serif;color:black;">EVENT MANAGEMENT</h2></center>
+ 
+
+
+<li><center>
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/ar.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">ASHISH RAO</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+</center></li>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/vc.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">VAIBHAV CHAUHAN</h2>
+
+    <a class="case-study__link" href="#">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/mi.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SHASHANK YADAV</h2>
+
+    <a class="case-study__link" href="#">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/sp.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SAURABH PAL</h2>
+
+    <a class="case-study__link" href="#">ASSOCIATE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/ss.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SUKRITI SHARMA</h2>
+
+    <a class="case-study__link" href="#">ASSOCIATE</a>
+
+  </div>
+
+
+</div>
+<br><br><br><br><br><br>
+<center><h2 style="font-size: 80px;font-family:Tahoma, Geneva, sans-serif;color:black;">FINANCE</h2></center>
+ 
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/mi.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">KAUSTUBH MISRA</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/hj.jpg" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">HIMANSHU JAIN</h2>
+
+    <a class="case-study__link" href="#">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+
+<br><br><br><br><br><br>
+<center><h2 style="font-size: 80px;font-family:Tahoma, Geneva, sans-serif;color:black;">WEB DEVELOPMENT</h2></center>
+ 
+
+<li><center>
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/ac.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">ANUJ CHIKKARA</h2>
+
+    <a class="case-study__link" href="#">HEAD</a>
+
+  </div>
+
+</div>
+</center>
+</li>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/kb.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">KRISHNA BANSAL</h2>
+
+    <a class="case-study__link" href="https://www.linkedin.com/in/krishna-bansal-956822158/">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+<div class="case-study study8s">
+
+  <figure>
+
+    <img class="case-study__img" style="width:380px ;height::380px" src="../images/demo/backgrounds/idpht/SA.JPG" alt="" />
+
+  </figure>
+
+  <div class="case-study__overlay">
+
+    <h2 class="case-study__title">SMRITI AGARWAL</h2>
+
+    <a class="case-study__link" href="https://www.linkedin.com/in/smriti-agarwal-819689164/">EXECUTIVE</a>
+
+  </div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+<!-- Final Section -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+     
+    <p class="fl_right" style="color: #00ffff">ASME &copy;2017 ASME - <a href="#" style="color: #00ffff">IN</a></p>
+    <p class="fl_left" style="color: red">DESIGNED By <a  href=" " style="color: #00ffff">:KRISHNA BANSAL & SMRITI AGRAWAL</a></p>
+  </div>
+</div>
+<!--/Final Section -->
+
+
+ 
+ <a id="backtotop" href="#top" style="color: red"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 16:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("s").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("s").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+</html>

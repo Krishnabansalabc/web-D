@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<!--main tags -->
+
+<html>
+<head>
+<title>ASME</title>
+
+<meta charset="utf-8" />
+	
+
+<link href="layout/styles/framework.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Sheet for social buttons-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="images/demo/backgrounds/asme.ico" rel="icon">
+<style type="text/css">
+
+/*mebership drive overlay text overlay*/
+
+#ov {
+
+    position: fixed;
+
+    display: none;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    background-color: rgba(0,0,0,0.5);
+
+    z-index: 2;
+
+    cursor: pointer;
+
+}
+
+
+#tttt{
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    font-size: 5s0px;
+
+    color: green;
+
+    transform: translate(-50%,-50%);
+
+    -ms-transform: translate(-50%,-50%);
+
+    color: red;
+
+}
+
+
+/*membership drive overlay ends*/
+
+/*for socail buttons*/
+
+.ib {
+
+    width: 200px;
+
+    background-color: transparent;
+
+}
+
+.ib a {
+
+    display: block;
+
+    text-align: center;
+
+    padding: 16px;
+
+    transition: all 0.3s ease;
+
+    color: white;
+
+    font-size: 36px;
+
+}
+
+.ib a:hover {
+
+    background-color: white;
+
+}
+
+/*social buttons end*/
+
+
+
+
+
+/*moving rover for rejistration*/
+
+.example1 {
+
+   height: 50px;
+
+  overflow: hidden;
+
+ position: relative;
+
+}
+
+.example1 h3 {
+
+
+font-family:Tahoma, Geneva, sans-serif;
+
+ font-size: 3em;
+
+ position: absolute;
+
+ width: 100%;
+
+ height: 100%;
+
+ margin: 0;
+
+ line-height: 50px;
+
+ text-align: center;
+
+ /* Starting position */
+
+ -moz-transform:translateX(100%);
+
+ -webkit-transform:translateX(100%);
+	
+ transform:translateX(100%);
+
+ /* Apply animation to this element */
+	
+ -moz-animation: example1 15s linear infinite;
+
+ -webkit-animation: example1 15s linear infinite;
+
+ animation: example1 15s linear infinite;
+
+}
+
+/* Move it (define the animation) */
+
+@-moz-keyframes example1 {
+
+ 0%   {
+ -moz-transform: translateX(100%);
+ }
+
+ 100% { -moz-transform: translateX(-100%); }
+
+}
+
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   
+{ 
+ -moz-transform: translateX(100%); 
+/* Firefox bug fix */
+
+ -webkit-transform: translateX(100%); 
+/* Firefox bug fix */
+ 
+transform: translateX(100%); 		
+ }
+
+ 100% { 
+ 
+-moz-transform: translateX(-100%);
+ /* Firefox bug fix */
+
+ -webkit-transform: translateX(-100%);
+ /* Firefox bug fix */
+
+ transform: translateX(-100%);
+ 
+ }
+
+}
+
+/*end on moving rover rejistration*/
+
+
+/*membership drive botton*/
+
+.membtn {
+
+  border-radius: 8px;
+
+  background-color:#5dade2;
+
+  border: none;
+
+  color: white;
+
+  text-align: center;
+
+  font-size: 24px;
+
+  padding: 18px;
+
+  width: 160px;
+
+  transition: all 0.5s;
+
+  cursor: pointer;
+
+  margin: 4px;
+
+}
+
+
+.membtn span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+
+}
+
+
+.membtn span:after 
+{
+
+  content: '\00bb';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+  right: -20px;
+
+  transition: 0.5s;
+
+}
+
+
+.membtn:hover span {
+
+  padding-right: 25px;
+}
+
+
+.membtn:hover span:after
+ {
+
+  opacity: 1;
+
+  right: 0;
+
+}
+
+
+/*membership drive buttons ends*/
+
+
+#main
+{
+background:white fixed ;
+margin-top:80px;
+margin-bottom:50px;
+}
+#asme
+{
+background-image: url("asme1.jpg") ;
+margin-left:50px;margin-right:50px;
+margin-top:70px;
+ height:700px;
+background-repeat:no-repeat; 
+background-position:center;
+}
+#comming{background-color:orange;height:20%;margin-left:50px;margin-right:50px;}
+#abc{ height:27%;width:43%;display:inline-block; margin-left:5%;}
+#pqr{display:inline-block;float:right;margin-right:5%;margin-top:1%;height:27%;width:43%;}
+#three{background-color:#AFEEEE;margin-left:50px;margin-right:50px;}
+#xyz{ height:30%; display:inline-block;margin-top:5%;}
+#para{font-size:30px;font-family:"Lucida handwriting";color:blue;}
+</style>
+
+
+</head>
+
+<body id="top">
+
+<!-- Top Background STARTING -->
+
+
+<div class="bgded overlay" style="background-color:white;">
+ 
+  <!--  -->
+
+
+  <div class="wrapper row1" style="">
+
+    <header id="header" class="">
+ 
+      
+            
+      <!-- Hover statrs -->
+
+      <nav id="mainav"style="position: fixed;left:auto;border-top:1px solid white;border-bottom: 1px solid white;border-right: 1px solid white;border-left: 1px solid white;width: 100%;top: 0;background-color:#5dade2;color:white;">
+
+        <ul class="navbars" style="padding: 0px 60px 0px; margin-left: 250px;">
+
+          <li><img src="indeximages/demo/backgrounds/asme.png"  style="width: 60px;height: 60px; border-radius: 100%; box-shadow: 5px 5px 3px purple;"></li>
+          <li class="active"><a href="index.html" style="font-size: 15px;"><b>Home</b></a></li>
+<li><a href="pages/workshop and event.html" style="font-size: 15px"><b>Events and Workshops</b></a></li>
+        <li><a href="pages/newnew.html" style="font-size: 15px"><b>Our Team</b></a></li>
+          <li><a href="pages/collaboration.html" style="font-size: 15px"><b>Our Collaboration</b></a></li>
+ <li><a href="pages/gallery.html" style="font-size: 15px"><b>Gallery</b></a></li>
+	<li><a href="pages/contactus.html" style="font-size: 15px"><b>Contact Us</b></a></li>
+	<li><a href="pages/aboutus.html" style="font-size: 15px;"><b>About Us</b></a></li>
+
+        </ul>
+
+      </nav>
+
+      <!-- Hover ends -->
+
+    </header>
+
+  </div>
+
+<!-- overlay for membership-->
+ 
+  </div>
+  <div id="ov" onclick="off()">
+    <div id="tttt">
+    <center>
+<div class="w3-content w3-section" style="max-width:1200px;">
+  <img class="mySlide w3-animate-top" src="images/demo/backgrounds/ucomming/POPUP.jpg" style="width:100%;">
+   <img class="mySlide w3-animate-bottom" src="images/demo/backgrounds/ucomming/PoP-up.jpg" style="width:100%;">
+
+</center> </div>
+  </div>
+
+
+<!-- main section-->
+<div id="main">
+      <div id="asme" >
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <footer>
+        <ul class="nospace inline pushright" style="margin-left:400px;">
+          <li><a class="btn" href="https://www.asme.org/about-asme" style="color: white;">Read More </a></li>
+          <li>          
+            <center><a class="btn" style="color: white;" onclick="typeWriter()">What is ASME??</a></center>
+            </li>
+        </ul>
+	<p id="demo" style="color:white;margin-right:50px; margin-left:50px;"></p>
+           </footer>     
+      </div>
+  
+<div style="background-color:red; height:50%; width:96%; margin-left:2%; margin-right:2%;">
+<div style="float:left; height:86%; width:48%; margin-right:2.5%; margin-left:8%; margin-top:4%; margin-bottom:4%;">
+ <div class="w3-content w3-section " >
+
+               <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/1.png" style="width:87% ;height:90%;" >
+
+               <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/2.png" style="width:87% ;height:90%;">
+
+               <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/3.png" style="width:87% ;height:90%;">
+
+               <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/4.png" style="width:87% ;height:90%;" >
+
+               <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/5.png" style="width:87% ;height:90%;" >
+
+               <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/6.png" style="width:87% ;height:90%;" >
+
+               <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/7.png" style="width:87% ;height:90%;">
+
+               <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/8.png" style="width:87% ;height:90%;">
+
+               <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/9.png" style="width:87%;height:90%;">
+
+               <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/10.png" style="width:87% ;height:90%;">
+
+               <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/11.png" style="width:87% ;height:90%;">
+
+               <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/12.png" style="width:87% ;height:90%;">
+
+         </div>
+</div>
+<div style="float:right; margin-right:8%; margin-top:4%; margin-left:2.5%; margin-bottom:4%; width:30%;">
+<p style="color:red; font-size:150%; font-family:'lucida handwriting';">HURRY!!!! ENROLLED YOURSELF<br> ONLY FEW TIME LEFT</p>
+<p id="s" style="color:white; font-size:150%;"></p>
+<p style="color:black; font-size:125%; font-family:'lucida handwriting';">FOR MEMBERSHIP</p>
+<a href="membership.html"><button class="membtn"><span>CLICK HERE!!!</span></button></a>
+</div>
+</div>         
+
+     <div id="comming" style="clear:both;">
+          <div id="abc"><img src="Screenshot (34).png"><br/>
+           <b>
+           <ul style="list-style-type:square; color:#00FFFF; font-family:Comic-sansMS; font-size:30px;">
+            <li>QUIZZARDS 2.0</li>
+             <li>IMPETUS 5.0</li>
+             <li>VEHICLE DYNAMICS</li>
+            <li>C FROM SCRATCH</li>
+          </ul>
+       </b>
+     </div>
+     <div id="pqr">
+      <h4 style="color:white;font-family :lucida handwriting;font-size:35px;"><b><u><center>OUR WORK</center></u></b></h4>
+      <iframe height="38%" width="50%" style="margin-left:25%;" src="https://www.youtube.com/embed/QCNk4MmNOu0">
+       </iframe>
+    </div>
+   </div>
+ <div id="three">
+  <div id="xyz">
+   <center>
+    <div class="one_third first">
+    <img  src="pages\gallery\10.jpg" style="height:55%;width:85%;margin-left:20%;border:20px;border-style:inset;border-color:blue;" onclick="onClick(this)" class="w3-hover-opacity" alt="Inaugration(ASME)">
+<br>
+    <p id="para" style="margin-right:10%;margin-left:15%;" ><u>INAUGURATION(ASME)</u></p>
+</div>
+<div class="one_third"> 
+    <img  src="pages\gallery\CREO-1  (2).jpeg" style="height:50%;width:80%;margin-left:15%;border:20px;border-style:inset;border-color:blue;" onclick="onClick(this)" class="w3-hover-opacity"  alt="NEXUS">
+<br>
+
+<p id="para" style="margin-right:10%;margin-left:5%;"><u>NEXUS</u></p>
+</div>
+<div class="one_third">
+    <img  src="pages\gallery\inaugration.png" style="height:20%;width:65%;border:20px;margin-right:20%;border-style:inset;border-color:blue;" onclick="onClick(this)" class="w3-hover-opacity" alt="Inaugration">
+<br><p id="para" style="margin-right:20%;margin-left:5%;"><u>INAUGURATION</u></p>
+</div>
+  </center>  
+     
+  </div>
+
+ </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<!--/main section-->
+<footer class="w3-container  w3-center w3-opacity w3-light-grey  w3-xlarge" >
+ <a href="https://www.facebook.com/asme.glau/"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+ <a href="https://www.instagram.com/asmeglau/"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+ <a href="https://www.twitter.com/asmeglau/"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
+ <a href=""> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+</footer>
+<!-- Final Section -->
+
+<div class="wrapper row5">
+
+  <div id="copyright" class="hoc clear">
+    <p class="fl_left" style="color: red;">DESIGNED By <a  href="https://www.linkedin.com/in/krishna-bansal-956822158/" style="color: #00ffff">:KRISHNA BANSAL</a> and <a href="https://www.linkedin.com/in/smriti-agarwal-819689164/" style="color: #00ffff">SMRITI AGARWAL</a></p>
+<p class="fl_right" style="color: #00ffff;">ASME &copy;2017 ASME - <a href="" style="color: #00ffff">IN</a></p>
+
+  </div>
+
+</div>
+
+<!--/Final Section -->
+
+
+ 
+ <a id="backtotop" href="#top" style="color: red"><i class="fa fa-chevron-up"></i></a>
+
+
+<!-- JAVASCRIPTS -->
+
+<!-- JAVASCRIPTS for countdown-->
+
+<script>
+
+// Set the date we're counting down to
+
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+
+
+// Update the count down every 1 second
+
+var x = setInterval(function() {
+
+
+    // Get todays date and time
+
+    var now = new Date().getTime();
+
+    
+    // Find the distance between now an the count down date
+
+    var distance = countDownDate - now;
+
+    
+    // Time calculations for days, hours, minutes and seconds
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    
+    // Output the result in an element with id="demo"
+
+    document.getElementById("s").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    
+    // If the count down is over, write some text
+ 
+    if (distance < 0)
+ {
+
+        clearInterval(x);
+
+        document.getElementById("s").innerHTML = "EXPIRED";
+
+    }
+
+}
+, 1000);
+
+</script>
+
+
+<!-- JAVASCRIPTS ends for countdown-->
+
+<!-- SCRIPT FOR MEMBERSHIP ADVERTISEMENT OVERLAY-->
+
+<script>
+
+
+    document.getElementById("ov").style.display = "block";
+
+
+function off() {
+
+    document.getElementById("ov").style.display = "none";
+
+}
+
+</script>
+
+
+<script>
+
+var myIndex = 0;
+
+carousel();
+
+
+function carousel() {
+
+    var i;
+
+    var x = document.getElementsByClassName("mySlides");
+
+    for (i = 0; i < x.length; i++) {
+
+      x[i].style.display = "none";
+  
+    }
+
+    myIndex++;
+
+    if (myIndex > x.length) {myIndex = 1}
+    
+    x[myIndex-1].style.display = "block";
+  
+    setTimeout(carousel, 5000);
+    
+}
+
+</script>
+
+<script>
+
+var myIndexx= 0;
+
+carousel1();
+
+
+function carousel1() {
+
+    var j;
+
+    var y= document.getElementsByClassName("mySlide");
+
+    for (j = 0; j < y.length; j++) {
+
+      y[j].style.display = "none";
+  
+    }
+
+    myIndexx++;
+
+    if (myIndexx > y.length) {myIndexx = 1}
+    
+    y[myIndexx-1].style.display = "block";
+  
+    setTimeout(carousel1, 3000);
+    
+}
+
+</script>
+<!-- JAVASCRIPTS  for read more in asme logo-->
+<script>
+var i = 0;
+var txt = 'ASME is a not-for-profit membership GLOBAL ORGANIZATION that enables collaboration, knowledge sharing, career enrichment, and skills development across all engineering disciplines, toward a goal of helping the global engineering community develop solutions to benefit lives and livelihoods.From college students and early-career engineers to project managers, corporate executives, researchers and academic leaders, ASME members are as diverse as the engineering community itself. ASME serves this wide-ranging technical community through quality programs in continuing education, training and professional development, codes and standards, research, conferences and publications, government relations and other forms of outreach.....';
+
+var speed = 70;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+<script>
+// Modal Image Gallery
+function onClick(element) 
+{
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+<!-- JAVASCRIPTS ends for read more in asme logo-->
+<!-- SCRIPT FOR MEMBERSHIP ADVERTISEMENT OVERLAY ENDS-->
+
+
+<script src="indexlayout/scripts/jquery.min.js">
+</script>
+
+<script src="indexlayout/scripts/jquery.backtotop.js">
+</script>
+
+<script src="indexlayout/scripts/jquery.mobilemenu.js">
+</script>
+
+
+</body>
+
+</html>

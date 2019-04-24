@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thank You</title>
+
+	<meta charset="utf-8">
+
+<link href="indexlayout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<!-- Sheet for social buttons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="indeximages/demo/backgrounds/asme.ico" rel="icon">
+<style type="text/css">
+	/*membership drive botton*/
+.membtn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.membtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.membtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.membtn:hover span {
+  padding-right: 25px;
+}
+
+.membtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*membership drive buttons ends*/
+</style>
+
+</head>
+<body style="background-color: #ff6347">
+<br><br><br><br><br><br>
+<center><img src="indeximages/demo/backgrounds/asme.png" style="height: 300px;width: 450px; border-radius: 100%"></center>
+<br><br>
+<center><p style="font-size: 70px"><b>THANK YOU!</b></p></center>
+<center><p style="font-size: 30px">You have been successfully registered for this event.</p><center>
+<center><p style="font-size: 30px">All the necessary details will be sent on your e-mail soon.</p></center>
+<center><a href="index.html"><button class="membtn"><span>HOME</span></button></a></center>
+<script src="indexlayout/scripts/jquery.min.js"></script>
+<script src="indexlayout/scripts/jquery.backtotop.js"></script>
+<script src="indexlayout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

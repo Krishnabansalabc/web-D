@@ -1,0 +1,3 @@
+[17-Dec-2017 19:56:00 UTC] PHP Notice:  Undefined index: name in /home/pw2oyuv9upni/public_html/pages/cond.php on line 3
+[17-Dec-2017 19:56:00 UTC] PHP Notice:  Undefined index: mobn in /home/pw2oyuv9upni/public_html/pages/cond.php on line 4
+[17-Dec-2017 19:56:00 UTC] PHP Notice:  Undefined variable: phone in /home/pw2oyuv9upni/public_html/pages/cond.php on line 15

@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+
+<!--main tags -->
+
+<html>
+<head>
+<title>ABOUT US</title>
+
+<meta charset="utf-8">
+
+
+
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- Sheet for social buttons-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="../images/demo/backgrounds/asme.ico" rel="icon">
+
+/*mebership drive overlay text overlay*/
+
+<style>
+
+#ov {
+
+    position: fixed;
+
+    display: none;
+
+    width: 100%;
+
+    height: 100%;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    background-color: rgba(0,0,0,0.5);
+
+    z-index: 2;
+
+    cursor: pointer;
+
+}
+
+
+#tttt{
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    font-size: 5s0px;
+
+    color: green;
+
+    transform: translate(-50%,-50%);
+
+    -ms-transform: translate(-50%,-50%);
+
+    color: red;
+
+}
+
+
+/*membership drive overlay ends*/
+
+/*for socail buttons*/
+
+.ib {
+
+    width: 200px;
+
+    background-color: transparent;
+
+}
+
+.ib a {
+
+    display: block;
+
+    text-align: center;
+
+    padding: 16px;
+
+    transition: all 0.3s ease;
+
+    color: white;
+
+    font-size: 36px;
+
+}
+
+.ib a:hover {
+
+    background-color: white;
+
+}
+
+/*social buttons end*/
+
+
+
+
+
+/*moving rover for rejistration*/
+
+.example1 {
+
+   height: 50px;
+
+  overflow: hidden;
+
+ position: relative;
+
+}
+
+.example1 h3 {
+
+
+font-family:Tahoma, Geneva, sans-serif;
+
+ font-size: 3em;
+
+ position: absolute;
+
+ width: 100%;
+
+ height: 100%;
+
+ margin: 0;
+
+ line-height: 50px;
+
+ text-align: center;
+
+ /* Starting position */
+
+ -moz-transform:translateX(100%);
+
+ -webkit-transform:translateX(100%);
+	
+ transform:translateX(100%);
+
+ /* Apply animation to this element */
+	
+ -moz-animation: example1 15s linear infinite;
+
+ -webkit-animation: example1 15s linear infinite;
+
+ animation: example1 15s linear infinite;
+
+}
+
+/* Move it (define the animation) */
+
+@-moz-keyframes example1 {
+
+ 0%   {
+ -moz-transform: translateX(100%);
+ }
+
+ 100% { -moz-transform: translateX(-100%); }
+
+}
+
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   
+{ 
+ -moz-transform: translateX(100%); 
+/* Firefox bug fix */
+
+ -webkit-transform: translateX(100%); 
+/* Firefox bug fix */
+ 
+transform: translateX(100%); 		
+ }
+
+ 100% { 
+ 
+-moz-transform: translateX(-100%);
+ /* Firefox bug fix */
+
+ -webkit-transform: translateX(-100%);
+ /* Firefox bug fix */
+
+ transform: translateX(-100%);
+ 
+ }
+
+}
+
+/*end on moving rover rejistration*/
+
+
+/*membership drive botton*/
+
+.membtn {
+
+  border-radius: 4px;
+
+  background-color: #f4511e;
+
+  border: none;
+
+  color: #FFFFFF;
+
+  text-align: center;
+
+  font-size: 28px;
+
+  padding: 20px;
+
+  width: 200px;
+
+  transition: all 0.5s;
+
+  cursor: pointer;
+
+  margin: 5px;
+
+}
+
+
+.membtn span {
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  position: relative;
+
+  transition: 0.5s;
+
+}
+
+
+.membtn span:after 
+{
+
+  content: '\00bb';
+
+  position: absolute;
+
+  opacity: 0;
+
+  top: 0;
+
+  right: -20px;
+
+  transition: 0.5s;
+
+}
+
+
+.membtn:hover span {
+
+  padding-right: 25px;
+}
+
+
+.membtn:hover span:after
+ {
+
+  opacity: 1;
+
+  right: 0;
+
+}
+
+
+/*membership drive buttons ends*/
+
+</style>
+
+
+</head>
+
+<body id="top">
+
+<!-- Top Background STARTING -->
+
+
+<div class="bgded overlay" style="background-color:white;">
+ 
+  <!--  -->
+
+
+  <div class="wrapper row1" style="">
+
+    <header id="header" class="">
+ 
+      
+            
+      <!-- Hover statrs -->
+
+      <nav id="mainav" class="" style="position: fixed; left:auto; border-top: 1px solid white;border-bottom: 1px solid white;border-right: 1px solid white;border-left: 1px solid white;width: 100%;top: 0;background-color:#5dade2 ;color:white;  ">
+
+          
+
+        <ul class="navbars" style="padding: 0px 60px 0px; margin-left: 250px;">
+
+         <li><img src="../indeximages/demo/backgrounds/asme.png"  style="width: 150px;height: 90px; border-radius: 100%"></li>
+          <li><a href="../index.html" style="font-size: 15px;"><b>Home</b></a></li>
+
+          <li class="active"><a href="aboutus.html" style="font-size: 15px;"><b>About Us</b></a></li>
+
+        <li><a href="newnew.html" style="font-size: 15px"><b>Our Team</b></a></li>
+
+        <li><a href="workshop and event.html" style="font-size: 15px"><b>Events and Workshops</b></a></li>
+         <li><a href="collaboration.html" style="font-size: 15px"><b>Our Collaboration</b></a></li>
+
+	<li><a href="contactus.html" style="font-size: 15px"><b>Contact us</b></a></li>
+
+          <li><a href="gallery.html" style="font-size: 15px"><b>Gallery</b></a></li>
+
+
+        </ul>
+
+      </nav>
+
+      <!-- Hover ends -->
+
+    </header>
+
+  </div>
+
+<!-- aboutus section -->
+<div style=" background-color: white; ">
+<center>
+<div style="margin-top:70px; margin-left:80px; margin-right:80px;  background: fixed url('../images/demo/backgrounds/22.jpg') no-repeat center;  font-size:20px;">
+<h1 style="color:black;font-size:60px"><u>HOW <b>ASME</b> STARTED? </u></h1>
+<p style="color:darkred;">
+   <b><i>ASME</i> was founded in 1880 to provide a setting for engineers to discuss the concerns brought</b>
+  by the rise of industrialization and mechanization. The Society’s founders were some of the more prominent machine builders and technical innovators of the late nineteenth century; led by prominent steel engineer Alexander Lyman Holley, Henry Rossiter Worthington and John Edison Sweet.
+</p>
+<p style="color:midnightblue;">
+American Society of Mechanical Engineers (<b>ASME</b>)/Founders
+<ul style="color:midnightblue;">
+  <li>Alexander Lyman Holley</li>
+  <li>Henry Rossiter Worthington</li>
+  <li>John Edson Sweet</li>
+  <li>Matthias N. Forney</li>
+</ul>
+</p>
+<h1 style="color:black;font-size:60px"><u>MAIN PURPOSE OF <b>ASME</b></u></h1>
+<p style="color:darkred;">
+ <b> The American Society of Mechanical Engineers (ASME)</b> is a professional association that, in its own words, "promotes the art, science, and practice of multidisciplinary engineering and allied sciences around the globe" via "continuing education, training and professional development, codes and standards, research, conferences and publications, government relations, and other forms of outreach." <b>ASME</b> is thus an engineering society, a standards organization, a research and development organization, a lobbying organization, a provider of training and education, and a nonprofit organization. Founded as an engineering society focused on mechanical engineering in North America, <b>ASME</b> is today multidisciplinary and global.
+</p>
+ <h1 style="color:black;font-size:60px"><u><b>ASME</b> IN GLA UNIVERSITY</u></h1>
+<p style="color:darkred;">
+<b> ASME GLA University</b> Student Section is chartered at mechanical engineering department of the university with the aim to complement the curriculum of the university, to offer mutual support in study, learning, and professionalism; to provide personal connections and communications within the Society and the profession and to promote goals of the society. The Section has organized and provide a variety of activities of technical content and professional and personal value such as technical presentations; professional introductions and relationships; engineering and technical Competitions, engineering-related volunteer and community services etc. Society is open for every student without any kind of discrimination.
+</p>
+<p style="color:darkred;">
+<b>ASME</b> Student Section of GLA University, Mathura was inaugurated on 26th September 2014 by Mr. Madhukar Sharma (President of ASME India) by lighting the lamp. In his inaugural address he said “Through ASME, students can attain international relationships, they can prosper in their education & profession.” He also appealed youth of today to commit themselves towards eliminating problems in the society through engineering solutions”.
+</p>
+
+</div>
+</center>
+</div>
+<!--/aboutus section -->
+
+<!-- Final Section -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+     
+    <p class="fl_right" style="color: #00ffff">ASME &copy;2017 ASME - <a href="#" style="color: #00ffff">IN</a></p>
+    <p class="fl_left" style="color: red">DESIGNED By <a  href="https://www.facebook.com/amanpratap.singh.5036" style="color: #00ffff">:KRISHNA BANSAL and SMRITI AGARWAL</a></p>
+  </div>
+</div>
+<!--/Final Section -->
+
+ 
+ <a id="backtotop" href="#top" style="color: red"><i class="fa fa-chevron-up"></i></a>
+
+
+<!-- JAVASCRIPTS -->
+
+<!-- JAVASCRIPTS for countdown-->
+
+<script>
+
+// Set the date we're counting down to
+
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+
+
+// Update the count down every 1 second
+
+var x = setInterval(function() {
+
+
+    // Get todays date and time
+
+    var now = new Date().getTime();
+
+    
+    // Find the distance between now an the count down date
+
+    var distance = countDownDate - now;
+
+    
+    // Time calculations for days, hours, minutes and seconds
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    
+    // Output the result in an element with id="demo"
+
+    document.getElementById("s").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    
+    // If the count down is over, write some text
+ 
+    if (distance < 0)
+ {
+
+        clearInterval(x);
+
+        document.getElementById("s").innerHTML = "EXPIRED";
+
+    }
+
+}
+, 1000);
+
+</script>
+
+<!-- JAVASCRIPTS ends for countdown-->
+
+<!-- SCRIPT FOR MEMBERSHIP ADVERTISEMENT OVERLAY-->
+
+<script>
+
+
+    document.getElementById("ov").style.display = "block";
+
+
+function off() {
+
+    document.getElementById("ov").style.display = "none";
+
+}
+
+</script>
+
+<!-- SCRIPT FOR MEMBERSHIP ADVERTISEMENT OVERLAY ENDS-->
+
+
+<script src="indexlayout/scripts/jquery.min.js">
+</script>
+
+<script src="indexlayout/scripts/jquery.backtotop.js">
+</script>
+
+<script src="indexlayout/scripts/jquery.mobilemenu.js">
+</script>
+
+
+</body>
+
+</html>

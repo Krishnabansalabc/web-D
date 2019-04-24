@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+
+	<title>MEMBERSHIP DRIVE</title>
+
+<style>
+
+	body.bodiii{
+		border-style: solid;
+		border-width: 15px; 
+		border-color: white;	
+	background-image:url("Screenshot (33).png");	background-repeat:no-repeat; background-size:100% 100%;	}
+		p.hd1{
+		border-style: solid;
+		border-width: 10px; 
+		border-color: white;
+		text-align-last: center;
+		color: white;
+		font-size: 120px;
+		font-family: Tahoma, Geneva, sans-serif;	
+		}
+		p.hd2{
+		text-align-last: center;
+		color: white;
+		font-size: 60px;
+		font-family: Tahoma, Geneva, sans-serif;	
+		}
+		p.hd3{
+		text-align-last: center;
+		color: white; 
+		font-size: 35px;
+		font-family:Tahoma, Geneva, sans-serif;		
+		}
+
+
+    * {box-sizing: border-box}
+
+.c {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 60%; background-color: #4CAF50;}
+.css {width: 65%; background-color: #2196F3;}
+.js {width: 80%; background-color: #f44336;}
+.php {width: 90%; background-color: #808080;}
+
+
+    	/*  style codes for form filaation*/
+
+		* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #cc0000;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #cc0000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+
+/* Mark the steps that are finished and valid: */
+
+.step.finish {
+  background-color: #4CAF50;
+}
+	
+/*style code for form fillation ends here*/
+
+	
+/*style for slideshow starts*/
+
+
+
+</style>
+
+</head>
+
+<body  class="bodiii">
+	<br><br><br>
+
+	<div>
+
+		<p><center><img src="indeximages/demo/backgrounds/membership/asme.png"></center></p>
+</div>
+<br>
+<p class="hd3">American Society Of Mechanical Engineering Invites You To</p>
+<p class="hd2">DREAM BIG</p>
+<p class="hd1">MEMBERSHIP DRIVE</p>
+<p class="hd2"> SOCIETY YEAR 2017-2018</p>
+
+
+
+<div class="w3-content w3-section" style="max-width:1200px">
+
+  <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/1.png" style="width:100%">
+
+   <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/2.png" style="width:100%">
+
+    <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/3.png" style="width:100%">
+
+     <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/4.png" style="width:100%">
+
+      <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/5.png" style="width:100%">
+
+       <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/6.png" style="width:100%">
+
+        <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/7.png" style="width:100%">
+
+         <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/8.png" style="width:100%">
+
+          <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/9.png" style="width:100%">
+
+           <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/10.png" style="width:100%">
+
+            <img class="mySlides w3-animate-top" src="indeximages/demo/backgrounds/membership/shots/11.png" style="width:100%">
+
+             <img class="mySlides w3-animate-bottom" src="indeximages/demo/backgrounds/membership/shots/12.png" style="width:100%">
+
+
+ 	
+
+
+
+
+<p style="color: white;font-size: 35px;text-align: center;">ONLY FEW TIME LEFT</p>
+
+<p id="s" style="color: white;font-size: 45px;text-align: center"></p>
+
+
+<form id="regForm" action="data.php" method="post">
+  <h1 style="color:#cc0000 ">REGISTER HERE:</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab" style="color: #cc0000; font-size: 30px">Name:
+    <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
+    <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
+     <br><br>
+    <p style="font-size: 20px">NOTE:- PLEASE FILL THE INFORMATION CORRECTLY OTHERWISE REGISTRATION WILL BE DISCARDED AND THERE WILL BE <b>NO-REFUND</b></p>
+  </div>
+  <div class="tab" style="color: #cc0000; font-size: 30px">Contact Info:
+    <p><input placeholder="E-mail..." oninput="this.className = ''" name="email" type="email"></p>
+    <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
+     <br><br>
+    <p style="font-size: 20px">NOTE:- PLEASE FILL THE INFORMATION CORRECTLY OTHERWISE REGISTRATION WILL BE DISCARDED AND THERE WILL BE <b>NO-REFUND</b></p>
+  </div>
+  <div class="tab" style="color: #cc0000; font-size: 30px">University Info:
+    <p><input placeholder="University Roll No. ..." oninput="this.className = ''" name="univrolno"></p>
+    
+    <label for="branch">BRANCH</label>
+    <select id="branch" name="branch">
+       <option value="OTHERS">OTHER</option>
+      <option value="CSE">CSE</option>
+      <option value="ME">ME</option>
+    <option value="CE">CE</option>
+    <option value="ECE">ECE</option>		
+    <option value="EE">EE</option>
+    </select>
+
+<br>
+    <label for="year" >YEAR::-</label>
+    <select style="color: black" id="year" name="year">
+       <option value="1">1<sup>st</sup></option>
+      <option value="2">2<sup>nd</sup></option>
+      <option value="3">3<sup>rd</sup></option>
+    <option value="4">4<sup>th</sup></option>
+
+    </select>
+
+     <br><br>
+    <p style="font-size: 20px">NOTE:- PLEASE FILL THE INFORMATION CORRECTLY OTHERWISE REGISTRATION WILL BE DISCARDED AND THERE WILL BE <b>NO-REFUND</b></p>
+  
+  </div>
+  <div class="tab" style="color: #cc0000; font-size: 30px">Payment:
+    <p>FEES= 100.0/-</p>
+    <p><b>PAYTM:</b>  <b>9956647225</b> </p> 
+    <img src="indeximages/demo/backgrounds/membership/qr.png">
+    <br>
+    <a href="https://paytm.com/" style="font-size: 15px;color: blue"><b>VISIT PAYTM SITE</b></a>
+  <p style="color: black;font-size: 20px">NOTE- PLEASE ENTER THE TRANSACTION ID IN THE BOX GIVEN BELOW </p>   
+    <p><input placeholder="Transcation ID ..." oninput="this.className = ''" name="transacid"></p>
+     <br><br>
+    <p style="font-size: 20px">NOTE:- PLEASE FILL THE INFORMATION CORRECTLY OTHERWISE REGISTRATION WILL BE DISCARDED AND THERE WILL BE <b>NO-REFUND</b></p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+<br><br><br>
+<h1>PREVIOUS YEARS ASME MEMBERS</h1>
+
+<p>2014</p>
+<div class="c">
+  <div class="skills html">60%</div>
+</div>
+
+<p>2015-16</p>
+<div class="c">
+  <div class="skills css">65%</div>
+</div>
+
+<p>2016-17</p>
+<div class="cr">
+  <div class="skills js">80%</div>
+</div>
+
+<p>2017-18</p>
+<div class="">
+  <div class="skills php">90%</div>
+</div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("s").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("s").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+
+
+<script>
+
+var myIndex = 0;
+
+carousel();
+
+
+function carousel() {
+
+    var i;
+
+    var x = document.getElementsByClassName("mySlides");
+
+    for (i = 0; i < x.length; i++) {
+
+      x[i].style.display = "none";
+  
+    }
+
+    myIndex++;
+
+    if (myIndex > x.length) {myIndex = 1}
+    
+    x[myIndex-1].style.display = "block";
+  
+    setTimeout(carousel, 3000);
+    
+}
+
+</script>
+
+
+<script src="layout/scripts/rejis.js"></script>
+
+
+
+</body>
+</html>
